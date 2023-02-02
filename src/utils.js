@@ -9,5 +9,6 @@ export function login({ email, password }) {
         reject({ message: 'e-mail or password wrong.' });
       }
     }, delay);
+
   });
 }
